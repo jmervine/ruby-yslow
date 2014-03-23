@@ -1,5 +1,5 @@
-YSlow.rb
-========
+YSlow on Ruby
+=============
 
 [![Build Status](https://travis-ci.org/jmervine/ruby-yslow.svg?branch=v0.0.1)](https://travis-ci.org/jmervine/ruby-yslow) &nbsp; ![Gem Version](https://badge.fury.io/rb/yslow.png)
 
