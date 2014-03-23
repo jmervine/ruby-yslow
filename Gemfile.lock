@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    yslow (0.0.1)
+      phantomjs (~> 1.9.7.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.4.3)
+    builder (3.2.2)
+    hashie (2.0.5)
+    minitest (4.7.5)
+    minitest-reporters (0.14.24)
+      ansi
+      builder
+      minitest (>= 2.12, < 5.0)
+      powerbar
+    phantomjs (1.9.7.0)
+    powerbar (1.0.11)
+      ansi (~> 1.4.0)
+      hashie (>= 1.1.0)
+    rake (0.9.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 4.7.5)
+  minitest-reporters (~> 0.14.24)
+  rake
+  yslow!
