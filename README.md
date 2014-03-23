@@ -52,7 +52,7 @@ Example Usage
     # YSlow::Result#to_json :: stdout as json if passed, else result as json
     # YSlow::Result#to_h    :: parsed stdout hash if passed, else result as hash
 
-> See [example/basic.rb](example/basic.rb) for a runnable example.
+> See [examples/basic.rb](https://github.com/jmervine/ruby-yslow/blob/master/examples/basic.rb) for a runnable example.
 
 Example Usage: Test
 -------------------
@@ -91,7 +91,7 @@ Example Usage: Test
       end
     end
 
-> See [example/minitest.rb](example/minitest.rb) for a runnable example.
+> See [examples/minitest.rb](https://github.com/jmervine/ruby-yslow/blob/master/examples/minitest.rb) for a runnable example.
 
 Development
 -----------
