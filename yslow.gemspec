@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.authors = ["Joshua P. Mervine"]
 
   gem.add_dependency "json" if RUBY_VERSION.start_with? "1.8"
-  gem.add_dependency "phantomjs", "~> 1.9.7.0"
+  gem.add_dependency "phantomjs", "~> 1.9"
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "minitest", "~> 4.7.5"

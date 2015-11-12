@@ -16,9 +16,11 @@ module YSlow
   end
 
   def self.run url, command=[]
-    command.push("--format")
-    command.push("json")
     command.push(url)
+
+    # Unshift the json format option. This is so the gem user can override it if they need XML.
+    command.unshift("json")
+    command.unshift("--format")
 
     command.unshift(self.path)
     command.unshift(self.phantomjs)
